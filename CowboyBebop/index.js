@@ -30,7 +30,7 @@ const handleOrientation = (e) => {
     const gamma = e.gamma; // Inclinación lateral (eje Y)
 
     // Ajustar la sensibilidad
-    const sensitivity = 0.5; // Puedes cambiar este valor para ajustar la sensibilidad
+    const sensitivity = 0.2; // Puedes cambiar este valor para ajustar la sensibilidad
     rotationX = Math.max(Math.min(beta * sensitivity, maxRotation), -maxRotation);
     rotationY = Math.max(Math.min(gamma * sensitivity, maxRotation), -maxRotation);
 
